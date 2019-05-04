@@ -16,7 +16,7 @@
       $this->coefficient = $coefficient;
       $this->constant = $constant;
 
-      // Finally applies values to variable
+      // Applies values to variable
       $this->variable = ($this->coefficient * ($this->variable ** $this->power)) + $this->constant;
       return $this->variable;
     }
